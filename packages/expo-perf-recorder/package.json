@@ -1,6 +1,6 @@
 {
   "name": "@artshin/expo-perf-recorder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Continuous background React profiler for Expo / React Native (dev-only). Captures React DevTools profiling dumps in JS and persists, analyses and aggregates them natively, off the JS thread.",
   "repository": {
     "type": "git",
