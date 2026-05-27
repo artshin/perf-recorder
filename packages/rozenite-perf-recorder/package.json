@@ -1,6 +1,6 @@
 {
   "name": "@artshin/rozenite-perf-recorder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Rozenite DevTools panel + agent tools for @artshin/expo-perf-recorder.",
   "repository": {
     "type": "git",
