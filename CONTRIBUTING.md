@@ -39,6 +39,6 @@ The example app (`apps/example`) needs a custom Expo dev client — see
 
 ## Releasing
 
-Maintainers don't publish by hand. Merging to `main` opens a **Version
-Packages** PR; merging that publishes to npm (with provenance) and tags the
-release.
+Merging to `main` opens a **Version Packages** PR (Changesets). Merging that
+bumps versions and writes the changelogs; publishing to npm is then a deliberate
+manual run of the Release workflow.
