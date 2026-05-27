@@ -1,0 +1,10 @@
+# Generated native projects (recreated by `expo prebuild`)
+/android
+/ios
+
+# Expo
+.expo/
+dist/
+web-build/
+
+*.log

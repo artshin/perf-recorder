@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "perf-recorder-example",
+    "slug": "perf-recorder-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.artshin.perfrecorderexample",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.artshin.perfrecorderexample"
+    }
+  }
+}

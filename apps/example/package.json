@@ -1,0 +1,30 @@
+{
+  "name": "@artshin/perf-recorder-example",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Runnable Expo dev-client app demonstrating @artshin/expo-perf-recorder + its Rozenite panel.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "start:rozenite": "WITH_ROZENITE=true expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "prebuild": "expo prebuild --clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@artshin/expo-perf-recorder": "*",
+    "@artshin/rozenite-perf-recorder": "*",
+    "expo": "~56.0.5",
+    "react": "19.2.6",
+    "react-native": "0.85.3",
+    "react-native-safe-area-context": "~5.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@rozenite/metro": "1.10.0",
+    "@types/react": "~19.0.14",
+    "babel-preset-expo": "^13.2.5",
+    "typescript": "~5.9.3"
+  }
+}

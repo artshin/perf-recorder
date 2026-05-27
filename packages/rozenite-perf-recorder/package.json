@@ -1,0 +1,67 @@
+{
+  "name": "@artshin/rozenite-perf-recorder",
+  "version": "0.0.1",
+  "description": "Rozenite DevTools panel + agent tools for @artshin/expo-perf-recorder.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artshin/perf-recorder.git",
+    "directory": "packages/rozenite-perf-recorder"
+  },
+  "homepage": "https://github.com/artshin/perf-recorder/tree/main/packages/rozenite-perf-recorder#readme",
+  "bugs": "https://github.com/artshin/perf-recorder/issues",
+  "type": "module",
+  "main": "./dist/react-native/index.cjs",
+  "module": "./dist/react-native/index.js",
+  "types": "./dist/react-native/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/react-native/index.d.ts",
+      "import": "./dist/react-native/index.js",
+      "require": "./dist/react-native/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rozenite build",
+    "dev": "rozenite dev",
+    "lint": "eslint src",
+    "prepublishOnly": "rozenite build",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "keywords": [
+    "rozenite",
+    "rozenite-plugin",
+    "react-native",
+    "devtools",
+    "profiler",
+    "performance"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@rozenite/agent-bridge": "1.10.0",
+    "@rozenite/agent-shared": "1.10.0",
+    "@rozenite/plugin-bridge": "1.10.0"
+  },
+  "peerDependencies": {
+    "expo": ">=52.0.0",
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@rozenite/vite-plugin": "1.10.0",
+    "@types/react": "~19.0.14",
+    "eslint": "^9.36.0",
+    "eslint-config-universe": "^15.0.3",
+    "prettier": "^3.4.2",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "0.85.3",
+    "react-native-web": "^0.20.0",
+    "rozenite": "1.10.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}

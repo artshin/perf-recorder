@@ -1,0 +1,40 @@
+name: Bug report
+description: Something isn't working as expected
+labels: [bug]
+body:
+  - type: dropdown
+    id: package
+    attributes:
+      label: Package
+      options:
+        - "@artshin/expo-perf-recorder"
+        - "@artshin/rozenite-perf-recorder"
+        - example app / unsure
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what actually happened.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction
+      description: Steps, or ideally a minimal repo / snippet.
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      description: Package version, Expo / React Native version, OS, device/simulator.
+      placeholder: |
+        @artshin/expo-perf-recorder: 1.0.0
+        expo: 56.x
+        react-native: 0.85.3
+        platform: Android 14 emulator
+    validations:
+      required: true
