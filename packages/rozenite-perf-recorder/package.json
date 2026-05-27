@@ -52,16 +52,16 @@
   },
   "devDependencies": {
     "@rozenite/vite-plugin": "1.10.0",
-    "@types/react": "~19.0.14",
-    "eslint": "^9.36.0",
+    "@types/react": "~19.2.15",
+    "eslint": "^10.4.0",
     "eslint-config-universe": "^15.0.3",
     "prettier": "^3.4.2",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "react-native": "0.85.3",
-    "react-native-web": "^0.20.0",
+    "react-native-web": "^0.21.2",
     "rozenite": "1.10.0",
-    "typescript": "~5.8.3",
-    "vite": "^6.3.5"
+    "typescript": "~6.0.3",
+    "vite": "^8.0.14"
   }
 }
