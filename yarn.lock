@@ -2861,13 +2861,13 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.60.4.tgz#da4f1676d87e2bdf744291b504b0ab79550c3e61"
   integrity sha512-QVTUovf40zgTqlFVrKA1uXMVvU2QWEFWfAH8Wdc48IxLvrJMQVMBRjuQyUpzZCDkakImib9eVazbWlC6ksWtJw==
 
-"@rozenite/agent-bridge@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@rozenite/agent-bridge/-/agent-bridge-1.10.0.tgz#fe69b85ba706cfce137099baba53c03908fb0ef7"
-  integrity sha512-Rnfr85m3Ya91VG5r1x9+gSJ5gOCZLw4Yec0zBijdUSXxhH9LoChIuniG41hgxBYYKvMG22oeJnpI2atMdzFAgw==
+"@rozenite/agent-bridge@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@rozenite/agent-bridge/-/agent-bridge-1.11.0.tgz#05a546421dd07b1e3f9da63edc81f1e71f61b56b"
+  integrity sha512-jrZEhExcBnIjcwmvnlNUpOVNiam+Gf7/u5Gd8aHjmopunmuuxBRec2J3JszVT4D7BXQpFTMLgU9RkepkZamXDQ==
   dependencies:
-    "@rozenite/agent-shared" "1.10.0"
-    "@rozenite/plugin-bridge" "1.10.0"
+    "@rozenite/agent-shared" "1.11.0"
+    "@rozenite/plugin-bridge" "1.11.0"
     tslib "^2.3.0"
 
 "@rozenite/agent-sdk@1.10.0":
@@ -2882,6 +2882,13 @@
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/@rozenite/agent-shared/-/agent-shared-1.10.0.tgz#efc6f73e40731df31a7dca7e4abb50f512ba4861"
   integrity sha512-iZimNxQFE0qsF4nucVYLt1AYrI6WRXlscL6QVHKkfaI0/AdI14cdGbJEoxuS7Twpkru4/4v0QScsM1OIPZxgqg==
+  dependencies:
+    tslib "^2.3.0"
+
+"@rozenite/agent-shared@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@rozenite/agent-shared/-/agent-shared-1.11.0.tgz#8b0d96df7d3d5a85dedbc3781f81a2a5720f0299"
+  integrity sha512-7sU7+cYu/mv1MCcuJovYPmzuzlmT7KOeUexj/9SoKfpz6gbZ/WPJyaIcrA0aisXJq0dkWlDcPYDsdqtm8ZgKnw==
   dependencies:
     tslib "^2.3.0"
 
@@ -2907,10 +2914,10 @@
     tslib "^2.3.0"
     ws "^8.18.3"
 
-"@rozenite/plugin-bridge@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@rozenite/plugin-bridge/-/plugin-bridge-1.10.0.tgz#7ba3b62e974df91bf07e89bb21b8b4a50c897305"
-  integrity sha512-kUu4UdDOoemJqB8wxfDaSgGKQuPjJPYCiC0QU5c/tNp16dIzrSA4IX12c7bYzkeM55YMU17MXnXpXH1MEGW1qw==
+"@rozenite/plugin-bridge@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@rozenite/plugin-bridge/-/plugin-bridge-1.11.0.tgz#f97d23eb1e7cb672b93c0b0ddf451a2adea29d27"
+  integrity sha512-Zz/YypV/cgNabuenVX2vKAxgTfgxaBluQuam498ILNJFpFSr2YJGt6/muUpeqxX75aH719R438si1zBMmO3dgA==
   dependencies:
     tslib "^2.3.0"
 
