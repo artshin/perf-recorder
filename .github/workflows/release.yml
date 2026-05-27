@@ -1,8 +1,12 @@
 name: Release
 
+# Push to main keeps the "Version Packages" PR up to date (versioning only).
+# Publishing to npm happens ONLY via a manual run (workflow_dispatch) so a
+# release is always a deliberate act.
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 concurrency:
   group: release-${{ github.ref }}
@@ -41,7 +45,9 @@ jobs:
         uses: changesets/action@v1
         with:
           version: yarn version-packages
-          publish: yarn release
+          # Empty on push (version-PR only); set only on a manual run so
+          # npm publish never fires automatically.
+          publish: ${{ github.event_name == 'workflow_dispatch' && 'yarn release' || '' }}
           commit: "chore(release): version packages"
           title: "chore(release): version packages"
         env:
