@@ -12,3 +12,6 @@ packages/*/android/.gradle/
 
 # iOS
 packages/*/ios/Pods/
+
+# npm auth token (never commit)
+.npmrc
